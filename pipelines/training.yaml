@@ -37,7 +37,7 @@ spec:
               none: # specify not to compress while uploading to cloud
                 {}
       container:
-        image: docker.io/panttr/ml-classification-training:03 # Your docker image name
+        image: docker.io/panttr/ml-classification-training:latest # Your docker image name
         command: ["/bin/sh", "-c"]
         env:
           - name: CLASS_LABEL # name of the environment variable inside Docker container
